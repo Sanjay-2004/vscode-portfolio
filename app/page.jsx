@@ -1,7 +1,8 @@
+import Themeswitcher from "@/components/Themeswitcher"
 
 const Home = () => {
   return (
-    <h1>HELLOOOOO</h1>
+    <Themeswitcher />
   )
 }
 

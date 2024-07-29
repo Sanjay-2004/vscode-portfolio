@@ -27,7 +27,7 @@ module.exports = {
         "tab-border": "var(--tab-border)",
         "bottombar-border": "var(--bottombar-border)",
       },
-      color: {
+      textColor: {
         "text-color": "var(--text-color)",
         "accent-color": "var(--accent-color)",
         "button-text": "var(--button-text)",
@@ -40,7 +40,7 @@ module.exports = {
     },
   },
   plugins: [
-    // Include plugin for scrollbar if needed
-    require("tailwind-scrollbar")({ nocompatible: true }),
+    // Uncomment if using scrollbar plugin
+    // require("tailwind-scrollbar")({ nocompatible: true }),
   ],
 };
