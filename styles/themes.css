@@ -1,0 +1,337 @@
+/* GitHub Dark */
+:root {
+  --main-bg: #24292e;
+  --bg-text: rgba(56, 58, 61, 0.35);
+  --text-color: #efefef;
+  --accent-color: #f9826c;
+  --titlebar-bg: #1f2428;
+  --sidebar-bg: #24292e;
+  --sidebar-hover-bg: #1f2428;
+  --explorer-bg: #1f2428;
+  --explorer-hover-bg: #24292e;
+  --explorer-border: #161a1d;
+  --tabs-bg: #1f2428;
+  --tab-bg: #1f2428;
+  --tab-active-bg: #24292e;
+  --tab-border: #24292e;
+  --bottombar-bg: #24292e;
+  --bottombar-border: #1b1f23;
+  --button-bg: #176f2c;
+  --button-text: #dcffe4;
+  --bottombar-hover-bg: #4f4f52;
+  --scrollbar-track-bg: #24292e;
+  --scrollbar-thumb-bg: #333536;
+  --article-bg: #1f2428;
+}
+
+/* Dracula */
+[data-theme="dracula"] {
+  --main-bg: #282a36;
+  --bg-text: #313340;
+  --text-color: #efefef;
+  --accent-color: #bd93f9;
+  --titlebar-bg: #1e1f29;
+  --sidebar-bg: #343746;
+  --sidebar-hover-bg: #3c3d51;
+  --explorer-bg: #21222c;
+  --explorer-hover-bg: #313241;
+  --explorer-border: #161a1d;
+  --tabs-bg: #191a21;
+  --tab-bg: #21222c;
+  --tab-active-bg: #282a36;
+  --tab-border: #191a21;
+  --bottombar-bg: #191a21;
+  --bottombar-border: #191a21;
+  --button-bg: #44475a;
+  --button-text: #f8f8f2;
+  --bottombar-hover-bg: #4f4f52;
+  --scrollbar-track-bg: #282a36;
+  --scrollbar-thumb-bg: #454647;
+  --article-bg: #21222c;
+}
+
+/* Ayu Mirage */
+[data-theme="ayu-mirage"] {
+  --main-bg: #1f2430;
+  --bg-text: #21242b;
+  --text-color: #efefef;
+  --accent-color: #e6b450;
+  --titlebar-bg: #1f2428;
+  --sidebar-bg: #1f2430;
+  --sidebar-hover-bg: #191e2a;
+  --explorer-bg: #1f2430;
+  --explorer-hover-bg: #191e2a;
+  --explorer-border: transparent;
+  --tabs-bg: #1f2430;
+  --tab-bg: #1f2430;
+  --tab-active-bg: #1f2430;
+  --tab-border: transparent;
+  --bottombar-bg: #1f2430;
+  --bottombar-border: transparent;
+  --button-bg: #e6b450;
+  --button-text: #1f2430;
+  --bottombar-hover-bg: #4f4f52;
+  --scrollbar-track-bg: #1f2430;
+  --scrollbar-thumb-bg: #454647;
+  --article-bg: #252e3d;
+}
+
+/* Nord */
+[data-theme="nord"] {
+  --main-bg: #2e3440;
+  --bg-text: #3b414d;
+  --text-color: #efefef;
+  --accent-color: #88c0d0;
+  --titlebar-bg: #1f2428;
+  --sidebar-bg: #2e3440;
+  --sidebar-hover-bg: #434c5e;
+  --explorer-bg: #2e3440;
+  --explorer-hover-bg: #434c5e;
+  --explorer-border: rgba(136, 192, 208, 0.2);
+  --tabs-bg: #2e3440;
+  --tab-bg: #2e3440;
+  --tab-active-bg: #3b4252;
+  --tab-border: transparent;
+  --bottombar-bg: #3b4252;
+  --bottombar-border: transparent;
+  --button-bg: #434c5e;
+  --button-text: #d8dee9;
+  --bottombar-hover-bg: #4f4f52;
+  --scrollbar-track-bg: #2e3440;
+  --scrollbar-thumb-bg: #454647;
+  --article-bg: #363f50;
+}
+
+/* Solarised Dark */
+[data-theme="solarized-dark"] {
+  --main-bg: #002b36;
+  --bg-text: #073642;
+  --text-color: #839496;
+  --accent-color: #b58900;
+  --titlebar-bg: #073642;
+  --sidebar-bg: #002b36;
+  --sidebar-hover-bg: #073642;
+  --explorer-bg: #002b36;
+  --explorer-hover-bg: #073642;
+  --explorer-border: #073642;
+  --tabs-bg: #002b36;
+  --tab-bg: #073642;
+  --tab-active-bg: #586e75;
+  --tab-border: #002b36;
+  --bottombar-bg: #002b36;
+  --bottombar-border: #073642;
+  --button-bg: #b58900;
+  --button-text: #002b36;
+  --bottombar-hover-bg: #586e75;
+  --scrollbar-track-bg: #002b36;
+  --scrollbar-thumb-bg: #586e75;
+  --article-bg: #073642;
+}
+
+/* Monokai */
+[data-theme="monokai"] {
+  --main-bg: #272822;
+  --bg-text: #3e3d32;
+  --text-color: #f8f8f2;
+  --accent-color: #f92672;
+  --titlebar-bg: #272822;
+  --sidebar-bg: #272822;
+  --sidebar-hover-bg: #3e3d32;
+  --explorer-bg: #272822;
+  --explorer-hover-bg: #3e3d32;
+  --explorer-border: #49483e;
+  --tabs-bg: #272822;
+  --tab-bg: #3e3d32;
+  --tab-active-bg: #49483e;
+  --tab-border: #3e3d32;
+  --bottombar-bg: #272822;
+  --bottombar-border: #49483e;
+  --button-bg: #66d9ef;
+  --button-text: #272822;
+  --bottombar-hover-bg: #3e3d32;
+  --scrollbar-track-bg: #272822;
+  --scrollbar-thumb-bg: #49483e;
+  --article-bg: #3e3d32;
+}
+
+/* Gruvbox Dark */
+[data-theme="gruvbox-dark"] {
+  --main-bg: #282828;
+  --bg-text: #3c3836;
+  --text-color: #ebdbb2;
+  --accent-color: #d79921;
+  --titlebar-bg: #282828;
+  --sidebar-bg: #3c3836;
+  --sidebar-hover-bg: #504945;
+  --explorer-bg: #282828;
+  --explorer-hover-bg: #504945;
+  --explorer-border: #3c3836;
+  --tabs-bg: #282828;
+  --tab-bg: #3c3836;
+  --tab-active-bg: #504945;
+  --tab-border: #3c3836;
+  --bottombar-bg: #282828;
+  --bottombar-border: #504945;
+  --button-bg: #d79921;
+  --button-text: #282828;
+  --bottombar-hover-bg: #504945;
+  --scrollbar-track-bg: #282828;
+  --scrollbar-thumb-bg: #504945;
+  --article-bg: #3c3836;
+}
+
+/* One Dark */
+[data-theme="one-dark"] {
+  --main-bg: #282c34;
+  --bg-text: #3e4451;
+  --text-color: #abb2bf;
+  --accent-color: #61afef;
+  --titlebar-bg: #21252b;
+  --sidebar-bg: #282c34;
+  --sidebar-hover-bg: #3e4451;
+  --explorer-bg: #282c34;
+  --explorer-hover-bg: #3e4451;
+  --explorer-border: #3e4451;
+  --tabs-bg: #282c34;
+  --tab-bg: #21252b;
+  --tab-active-bg: #3e4451;
+  --tab-border: #282c34;
+  --bottombar-bg: #21252b;
+  --bottombar-border: #3e4451;
+  --button-bg: #61afef;
+  --button-text: #282c34;
+  --bottombar-hover-bg: #3e4451;
+  --scrollbar-track-bg: #282c34;
+  --scrollbar-thumb-bg: #3e4451;
+  --article-bg: #21252b;
+}
+
+/* Material Dark */
+[data-theme="material-dark"] {
+  --main-bg: #263238;
+  --bg-text: #2e3c43;
+  --text-color: #c3e88d;
+  --accent-color: #80cbc4;
+  --titlebar-bg: #263238;
+  --sidebar-bg: #263238;
+  --sidebar-hover-bg: #2e3c43;
+  --explorer-bg: #263238;
+  --explorer-hover-bg: #2e3c43;
+  --explorer-border: #2e3c43;
+  --tabs-bg: #263238;
+  --tab-bg: #2e3c43;
+  --tab-active-bg: #2e3c43;
+  --tab-border: #263238;
+  --bottombar-bg: #263238;
+  --bottombar-border: #2e3c43;
+  --button-bg: #80cbc4;
+  --button-text: #263238;
+  --bottombar-hover-bg: #2e3c43;
+  --scrollbar-track-bg: #263238;
+  --scrollbar-thumb-bg: #2e3c43;
+  --article-bg: #263238;
+}
+
+/* Synthwave 84 */
+[data-theme="synthwave-84"] {
+  --main-bg: #2b213a;
+  --bg-text: #3b2e5a;
+  --text-color: #f8f8f2;
+  --accent-color: #ff79c6;
+  --titlebar-bg: #1a1a2e;
+  --sidebar-bg: #2b213a;
+  --sidebar-hover-bg: #3b2e5a;
+  --explorer-bg: #2b213a;
+  --explorer-hover-bg: #3b2e5a;
+  --explorer-border: #ff79c6;
+  --tabs-bg: #1a1a2e;
+  --tab-bg: #2b213a;
+  --tab-active-bg: #ff79c6;
+  --tab-border: #ff79c6;
+  --bottombar-bg: #2b213a;
+  --bottombar-border: #ff79c6;
+  --button-bg: #ff79c6;
+  --button-text: #2b213a;
+  --bottombar-hover-bg: #3b2e5a;
+  --scrollbar-track-bg: #2b213a;
+  --scrollbar-thumb-bg: #ff79c6;
+  --article-bg: #3b2e5a;
+}
+
+/* Outrun */
+[data-theme="outrun"] {
+  --main-bg: #0f0a0e;
+  --bg-text: #1a1316;
+  --text-color: #f8f8f2;
+  --accent-color: #ff79c6;
+  --titlebar-bg: #0f0a0e;
+  --sidebar-bg: #0f0a0e;
+  --sidebar-hover-bg: #1a1316;
+  --explorer-bg: #0f0a0e;
+  --explorer-hover-bg: #1a1316;
+  --explorer-border: #ff79c6;
+  --tabs-bg: #0f0a0e;
+  --tab-bg: #0f0a0e;
+  --tab-active-bg: #1a1316;
+  --tab-border: #1a1316;
+  --bottombar-bg: #0f0a0e;
+  --bottombar-border: #1a1316;
+  --button-bg: #ff79c6;
+  --button-text: #0f0a0e;
+  --bottombar-hover-bg: #1a1316;
+  --scrollbar-track-bg: #0f0a0e;
+  --scrollbar-thumb-bg: #1a1316;
+  --article-bg: #1a1316;
+}
+
+/* Vaporwave */
+[data-theme="vaporwave"] {
+  --main-bg: #2b213a;
+  --bg-text: #3b2e5a;
+  --text-color: #f8f8f2;
+  --accent-color: #ff79c6;
+  --titlebar-bg: #1a1a2e;
+  --sidebar-bg: #2b213a;
+  --sidebar-hover-bg: #3b2e5a;
+  --explorer-bg: #2b213a;
+  --explorer-hover-bg: #3b2e5a;
+  --explorer-border: #ff79c6;
+  --tabs-bg: #1a1a2e;
+  --tab-bg: #2b213a;
+  --tab-active-bg: #ff79c6;
+  --tab-border: #ff79c6;
+  --bottombar-bg: #2b213a;
+  --bottombar-border: #ff79c6;
+  --button-bg: #ff79c6;
+  --button-text: #2b213a;
+  --bottombar-hover-bg: #3b2e5a;
+  --scrollbar-track-bg: #2b213a;
+  --scrollbar-thumb-bg: #ff79c6;
+  --article-bg: #3b2e5a;
+}
+
+/* Cyberpunk */
+[data-theme="cyberpunk"] {
+  --main-bg: #2b213a;
+  --bg-text: #3b2e5a;
+  --text-color: #f8f8f2;
+  --accent-color: #ff79c6;
+  --titlebar-bg: #1a1a2e;
+  --sidebar-bg: #2b213a;
+  --sidebar-hover-bg: #3b2e5a;
+  --explorer-bg: #2b213a;
+  --explorer-hover-bg: #3b2e5a;
+  --explorer-border: #ff79c6;
+  --tabs-bg: #1a1a2e;
+  --tab-bg: #2b213a;
+  --tab-active-bg: #ff79c6;
+  --tab-border: #ff79c6;
+  --bottombar-bg: #2b213a;
+  --bottombar-border: #ff79c6;
+  --button-bg: #ff79c6;
+  --button-text: #2b213a;
+  --bottombar-hover-bg: #3b2e5a;
+  --scrollbar-track-bg: #2b213a;
+  --scrollbar-thumb-bg: #ff79c6;
+  --article-bg: #3b2e5a;
+}
