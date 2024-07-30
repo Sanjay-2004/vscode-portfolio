@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { RiArrowDropRightLine, RiArrowDropDownLine } from 'react-icons/ri';
 import { navbarTabs } from '@/json/tabs';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(true);
@@ -29,11 +30,16 @@ const Sidebar = () => {
                         key={index}
                         className='hover:bg-tab-active-bg w-full'>
                         <Link
-
                             href={`/${tab.href}`}
                             className="flex items-center p-[2px] ms-2 text-xs group hover:bg-tab-active-bg"
                         >
-                            <img src={tab.icon} alt={tab.name} className="w-4 h-4 mr-2" />
+                            <Image
+                                src={tab.icon}
+                                alt={tab.name}
+                                width={16} // Adjust width as necessary
+                                height={16} // Adjust height as necessary
+                                className="mr-2"
+                            />
                             <span className="text-sm">{tab.name}</span>
                         </Link>
                     </div>

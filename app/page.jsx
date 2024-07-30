@@ -26,7 +26,15 @@ const Home = () => {
             <Link className='font-montserrat text-xl font-semibold px-5 py-1 border-4 border-button-border hover:border-button-hover-border' href="/contact">Contact Me</Link>
           </div>
         </div>
-        <img src="/coder.gif" className='h-96'></img>
+        <div className='h-96'>
+          <Image
+            src="/coder.gif"
+            alt="Coding GIF"
+            width={384} // Adjust width as necessary
+            height={384} // Adjust height as necessary
+            className='h-full object-cover'
+          />
+        </div>
       </div>
     </div>
   );

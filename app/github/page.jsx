@@ -4,6 +4,7 @@ import axios from 'axios'
 import githubProj from '@/json/github.json'
 import GitHubCalendar from "react-github-calendar"
 import Githubcard from "@/components/Githubcard"
+import Image from 'next/image'
 
 const Github = () => {
     const theme = {
@@ -40,11 +41,19 @@ const Github = () => {
         <div className="flex flex-col items-center gap-4 py-5 font-jetbrains max-w-7xl">
             <div className="w-[70%] bg-tabs-bg p-6 my-5 flex items-center justify-center gap-4">
                 <div className="flex items-center justify-center">
-                    <img src={data.avatar_url} alt={data.login} className="w-24 h-24 rounded-full border-2 border-gray-300" />
+                    <Image
+                        src={data.avatar_url}
+                        alt={data.login}
+                        width={96} // equivalent to w-24 in tailwind
+                        height={96} // equivalent to h-24 in tailwind
+                        className="rounded-full border-2 border-gray-300"
+                    />
                 </div>
                 <div className="border-l border-gray-400 h-24"></div>
                 <div className="flex flex-col items-center">
-                    <a href={data.html_url} target="_blank" rel="noopener noreferrer"><p className="text-lg font-bold">{data.login}</p></a>
+                    <a href={data.html_url} target="_blank" rel="noopener noreferrer">
+                        <p className="text-lg font-bold">{data.login}</p>
+                    </a>
                     <p className="text-sm">Repos: {data.public_repos}</p>
                     <p className="text-sm">Followers: {data.followers}</p>
                 </div>
@@ -54,12 +63,14 @@ const Github = () => {
                     <Githubcard key={index} {...project} />
                 ))}
             </div>
-            <div className=" mt-6"><GitHubCalendar
-                username="Sanjay-2004"
-                theme={theme}
-                hideColorLegend
-                hideMonthLabels
-            /></div>
+            <div className="mt-6">
+                <GitHubCalendar
+                    username="Sanjay-2004"
+                    theme={theme}
+                    hideColorLegend
+                    hideMonthLabels
+                />
+            </div>
         </div>
     )
 }

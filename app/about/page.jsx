@@ -15,7 +15,7 @@ const About = () => {
                     <span className="text-accent-color">&lt;aboutme&gt;</span>
                 </p>
                 <p className="line">
-                    &nbsp;&nbsp;&nbsp;As a computer science student at <span className="text-accent-color">Keshav Memorial Institute of Technology</span>, I excel in full-stack web development and blockchain technology. Proficient in <span className="text-accent-color"> C++, Java, Python, and JavaScript</span>, I have developed projects like the Siksha Sahayak grievance platform and Secure Patch blockchain system. My internship experience includes training and cloud deployment, enhancing my technical and instructional skills. Academically, I maintain a CGPA of 8.7 and have been recognized on platforms like CodeChef and LeetCode. As a <span className="text-accent-color">representative of kMITRA</span> and a contributor to my college's student-run e-magazine, I demonstrate leadership and communication skills. Additionally, I have achieved accolades in international competitions, showcasing my commitment to excellence and continuous learning.
+                    &nbsp;&nbsp;&nbsp;As a computer science student at <span className="text-accent-color">Keshav Memorial Institute of Technology</span>, I excel in full-stack web development and blockchain technology. Proficient in <span className="text-accent-color">C++, Java, Python, and JavaScript</span>, I have developed projects like the Siksha Sahayak grievance platform and Secure Patch blockchain system. My internship experience includes training and cloud deployment, enhancing my technical and instructional skills. Academically, I maintain a CGPA of 8.7 and have been recognized on platforms like CodeChef and LeetCode. As a <span className="text-accent-color">representative of kMITRA</span> and a contributor to my college's student-run e-magazine, I demonstrate leadership and communication skills. Additionally, I have achieved accolades in international competitions, showcasing my commitment to excellence and continuous learning.
                 </p>
                 <p className="line">
                     <span className="text-accent-color">&lt;/aboutme&gt;</span>
@@ -25,7 +25,7 @@ const About = () => {
                     <span className="text-accent-color">&lt;resume&gt;</span>
                 </p>
                 <p className="line">
-                    &nbsp;&nbsp;&nbsp;<a href='https://drive.google.com/file/d/1vU0mqmyUlQVlliBizcrXCfceTjnk_yVY/view?usp=drive_link' target='_blank' className="hover:underline">
+                    &nbsp;&nbsp;&nbsp;<a href='https://drive.google.com/file/d/1vU0mqmyUlQVlliBizcrXCfceTjnk_yVY/view?usp=drive_link' target='_blank' rel="noopener noreferrer" className="hover:underline">
                         View Resume
                     </a>
                 </p>
@@ -33,6 +33,7 @@ const About = () => {
                     <span className="text-accent-color">&lt;/resume&gt;</span>
                 </p>
 
+                {/* Uncomment the below code and escape entities if used */}
                 {/* <p className="line">&nbsp;</p>
                 <p className="line">
                     <span className="text-accent-color">&lt;experience&gt;</span>

@@ -31,7 +31,7 @@
   },
   {
     "name": "Quiet Light",
-    "icon": "/synthwave-84.png",
+    "icon": "/quietlight.jpg",
     "publisher": "Robb O",
     "theme": "quiet-light"
   },
@@ -46,11 +46,5 @@
     "icon": "/monokai.png",
     "publisher": "Wimer Hazenberg",
     "theme": "monokai"
-  },
-  {
-    "name": "One Dark",
-    "icon": "/one-dark.png",
-    "publisher": "One Dark",
-    "theme": "one-dark"
   }
 ]
