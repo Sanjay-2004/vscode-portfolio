@@ -3,7 +3,7 @@
     "name": "vscode-portfolio",
     "description": "A modern developer portfolio mimicking VSCode's UI, built with Next.js for a sleek and interactive experience.",
     "html_url": "https://github.com/Sanjay-2004/vscode-portfolio",
-    "demo_url": "https://sanjay-2004.github.io/vscode-portfolio",
+    "demo_url": "https://sanjay-vscode.vercel.app/",
     "imgUrl": "/projects/vscode-portfolio.png",
     "techStack": ["Next.js", "Tailwind CSS", "React"]
   },

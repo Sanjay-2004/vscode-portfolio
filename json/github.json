@@ -3,7 +3,7 @@
     "name": "vscode-portfolio",
     "description": "A VSCode themed developer portfolio built using Next.js",
     "html_url": "https://github.com/Sanjay-2004/vscode-portfolio",
-    "demo_url": "https://sanjay-2004.github.io/vscode-portfolio"
+    "demo_url": "https://sanjay-vscode.vercel.app/"
   },
   {
     "name": "AlgoVista",
