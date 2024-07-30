@@ -1,0 +1,30 @@
+[
+  {
+    "name": "vscode-portfolio",
+    "description": "A VSCode themed developer portfolio built using Next.js",
+    "html_url": "https://github.com/Sanjay-2004/vscode-portfolio",
+    "demo_url": "https://sanjay-2004.github.io/vscode-portfolio"
+  },
+  {
+    "name": "AlgoVista",
+    "description": "A web app to visualize various sorting algorithms",
+    "html_url": "https://github.com/Sanjay-2004/AlgoVista",
+    "demo_url": "https://algovista.netlify.app"
+  },
+  {
+    "name": "siksha-sahayak",
+    "description": "A web app which helped raise the concerns of 250+ students of my college ",
+    "html_url": "https://github.com/Sanjay-2004/siksha-sahayak",
+    "demo_url": "https://siksha-sahayak.netlify.app"
+  },
+  {
+    "name": "secure-patch",
+    "description": "Block Chain based patch management system",
+    "html_url": "https://github.com/Sanjay-2004/secure-patch"
+  },
+  {
+    "name": "dall-E-clone",
+    "description": "A clone of OpenAI's DALL-E model",
+    "html_url": "https://github.com/Sanjay-2004/dall-E-clone"
+  }
+]

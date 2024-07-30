@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contactme = () => {
     const [details, setDetails] = useState({
@@ -8,13 +9,30 @@ const Contactme = () => {
         message: ''
     });
 
+    const templateParams = {
+        from_name: details.name,
+        from_email: details.email,
+        to_name: "Sanjay Agamamidi",
+        message: details.message
+    }
     const handleChange = (e) => {
         setDetails({ ...details, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(details);
+
+        emailjs.send('service_h1t2qve', 'template_3v3kwy2', templateParams, 'jpcyricZULMYFryZ6')
+            .then((response) => {
+                console.log('Success:', response);
+                setDetails({
+                    name: '',
+                    email: '',
+                    message: ''
+                });
+            }, (error) => {
+                console.error('Error:', error);
+            });
     };
 
     return (

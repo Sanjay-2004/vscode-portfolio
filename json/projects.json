@@ -1,0 +1,40 @@
+[
+  {
+    "name": "vscode-portfolio",
+    "description": "A modern developer portfolio mimicking VSCode's UI, built with Next.js for a sleek and interactive experience.",
+    "html_url": "https://github.com/Sanjay-2004/vscode-portfolio",
+    "demo_url": "https://sanjay-2004.github.io/vscode-portfolio",
+    "imgUrl": "/projects/vscode-portfolio.png",
+    "techStack": ["Next.js", "Tailwind CSS", "React"]
+  },
+  {
+    "name": "AlgoVista",
+    "description": "Web app visualizing various sorting algorithms with real-time animations to aid understanding and learning.",
+    "html_url": "https://github.com/Sanjay-2004/AlgoVista",
+    "demo_url": "https://algovista.netlify.app",
+    "imgUrl": "/projects/algovista.png",
+    "techStack": ["JavaScript", "HTML", "CSS", "React", "Framer Motion"]
+  },
+  {
+    "name": "siksha-sahayak",
+    "description": "A web app for students to report and address issues, enhancing communication and support within the college.",
+    "html_url": "https://github.com/Sanjay-2004/siksha-sahayak",
+    "demo_url": "https://siksha-sahayak.netlify.app",
+    "imgUrl": "/projects/siksha-sahayak.png",
+    "techStack": [
+      "React(Vite)",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "ShadCN"
+    ]
+  },
+  {
+    "name": "secure-patch",
+    "description": "Blockchain-based system for secure patch management, ensuring tamper-proof software updates and patches.",
+    "html_url": "https://github.com/Sanjay-2004/secure-patch",
+    "imgUrl": "/projects/secure-patch.png",
+    "techStack": ["Blockchain", "Ganache", "Solidity", "MetaMask", "Bootstrap"]
+  }
+]

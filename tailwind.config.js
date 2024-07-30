@@ -32,6 +32,8 @@ module.exports = {
         "article-bg": "var(--article-bg)",
       },
       borderColor: {
+        "button-border": "var(--button-bg)",
+        "button-hover-border": "var(--button-hover-bg)",
         "explorer-border": "var(--explorer-border)",
         "tab-border": "var(--tab-border)",
         "bottombar-border": "var(--bottombar-border)",
