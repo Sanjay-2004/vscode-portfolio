@@ -1,29 +1,14 @@
 "use client"
 import Link from "next/link";
-import { IoMdCopy } from "react-icons/io";
-import { IoGitBranchOutline } from "react-icons/io5";
-import { IoCodeSlash } from "react-icons/io5";
-import { AiOutlineMail } from "react-icons/ai";
+import { tabs, bottomTabs } from "@/json/tabs";
 import { usePathname } from "next/navigation";
-import { IoMdContact } from "react-icons/io";
-import { IoMdSettings } from "react-icons/io";
 
 const Leftbar = () => {
-    const tabs = [
-        { href: "", icon: <IoMdCopy /> },
-        { href: "github", icon: <IoGitBranchOutline /> },
-        { href: "projects", icon: <IoCodeSlash /> },
-        { href: "contact", icon: <AiOutlineMail /> },
-    ]
-    const bottomTabs = [
-        { href: "about", icon: <IoMdContact /> },
-        { href: "settings", icon: <IoMdSettings /> }
-    ]
 
     const currentRoute = usePathname();
     return (
-        <nav className='flex flex-col justify-between items-center bg-tabs-bg '>
-            <ul className='flex flex-col justify-start items-center bg-tabs-bg'>
+        <nav className='flex flex-col justify-between items-center '>
+            <ul className='flex flex-col justify-start items-center'>
                 {tabs.map((tab, index) => {
                     const isActive = currentRoute === `/${tab.href}`;
                     return (
@@ -41,7 +26,7 @@ const Leftbar = () => {
                 }
                 )}
             </ul>
-            <ul className='flex flex-col justify-end items-center bg-tabs-bg'>
+            <ul className='flex flex-col justify-end items-center'>
                 {bottomTabs.map((tab, index) => {
                     const isActive = currentRoute === `/${tab.href}`;
                     return (

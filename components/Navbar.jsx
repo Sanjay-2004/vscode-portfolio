@@ -2,21 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MdClose } from "react-icons/md";
-
-const tabs = [
-    { name: 'home.jsx', icon: '/images/react.png', href: '' },
-    { name: 'about.html', icon: '/images/html.png', href: 'about' },
-    { name: 'contact.css', icon: '/images/css.png', href: 'contact' },
-    { name: 'projects.js', icon: '/images/js.png', href: 'projects' },
-    { name: 'github.md', icon: '/images/readme.png', href: 'github' },
-];
+import { navbarTabs } from '@/json/tabs'
 
 const Navbar = () => {
     const currentRoute = usePathname();
 
     return (
         <nav className="flex justify-normal gap-2 text-4xl bg-tabs-bg">
-            {tabs.map((tab, index) => {
+            {navbarTabs.map((tab, index) => {
                 const isActive = currentRoute === `/${tab.href}`;
                 return (
                     <Link key={index} href={`/${tab.href}`} className={`flex justify-evenly gap-2 items-center p-[5px] group ${isActive ? 'border-b-0 border-t-2 bg-main-bg border-accent-color' : ''}`}>

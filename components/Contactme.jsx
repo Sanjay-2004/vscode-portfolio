@@ -27,7 +27,7 @@ const Contactme = () => {
                     name="name"
                     value={details.name}
                     onChange={handleChange}
-                    className='w-full p-2 my-2 bg-tabs-bg border-none  focus:ring-0 font-jetbrains'
+                    className='w-full p-2 my-2 bg-tabs-bg border-none focus:ring-0 font-jetbrains'
                     required
                 />
                 <label htmlFor="email" className='font-jetbrains text-base mb-1'>Email</label>
@@ -36,7 +36,7 @@ const Contactme = () => {
                     name="email"
                     value={details.email}
                     onChange={handleChange}
-                    className='w-full p-2 my-2 bg-tabs-bg border-none  focus:ring-0 font-jetbrains'
+                    className='w-full p-2 my-2 bg-tabs-bg border-none focus:ring-0 font-jetbrains'
                     required
                 />
                 <label htmlFor="message" className='font-jetbrains text-base mb-1'>Message</label>
@@ -45,7 +45,7 @@ const Contactme = () => {
                     value={details.message}
                     onChange={handleChange}
                     rows="6"
-                    className='w-full p-2 my-2 bg-tabs-bg border-none  focus:ring-0 font-jetbrains'
+                    className='w-full p-2 my-2 bg-tabs-bg border-none focus:ring-0 font-jetbrains'
                     required
                 />
                 <button

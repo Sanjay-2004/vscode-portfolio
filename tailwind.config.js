@@ -11,6 +11,8 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         jetbrains: ["JetBrains Mono", "monospace"],
+        montserrat: ["Montserrat", "sans-serif"],
+        sourceSansPro: ["Source Sans Pro", "sans-serif"],
       },
       backgroundColor: {
         "main-bg": "var(--main-bg)",
@@ -41,6 +43,8 @@ module.exports = {
         "accent-color": "var(--accent-color)",
         "button-text": "var(--button-text)",
         "bg-text": "var(--bg-text)",
+        "bottombar-text": "var(--bottombar-text)",
+        "typewriter-color": "var(--typewriter-color)",
       },
       scrollbar: {
         track: "var(--scrollbar-track-bg)",

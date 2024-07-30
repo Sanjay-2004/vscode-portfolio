@@ -1,9 +1,13 @@
 import React from 'react';
 import "@/styles/linenumbers.css";
 
+export const metadata = {
+    title: 'About',
+}
+
 const About = () => {
     return (
-        <div className='my-2'>
+        <div className='my-2 max-w-7xl'>
             <h3 className='font-jetbrains font-semibold text-xl mx-3'>Hello This is Sanjay</h3>
             <div className="code font-jetbrains text-lg leading-7">
 

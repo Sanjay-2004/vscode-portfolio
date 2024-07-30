@@ -1,12 +1,9 @@
-import { Inter, JetBrains_Mono } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from '@/components/Navbar';
 import Topbar from "@/components/Topbar";
 import Leftbar from "@/components/Leftbar";
 import Bottombar from "@/components/Bottombar";
-
-const inter = Inter({ subsets: ["latin"] });
-const jetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
+import Sidebar from "@/components/Sidebar";
 
 export const metadata = {
   title: {
@@ -23,6 +20,7 @@ export default function RootLayout({ children }) {
         <Topbar />
         <div className="flex flex-grow">
           <Leftbar />
+          <Sidebar />
           <div className="flex flex-col flex-grow">
             <Navbar />
             <main className="flex-grow overflow-auto">

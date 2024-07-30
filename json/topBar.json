@@ -1,0 +1,10 @@
+[
+  { "label": "File" },
+  { "label": "Edit" },
+  { "label": "Selection" },
+  { "label": "View" },
+  { "label": "Go" },
+  { "label": "Run" },
+  { "label": "Terminal" },
+  { "label": "Help" }
+]
