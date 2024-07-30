@@ -1,0 +1,143 @@
+Program-1
+
+Concatenation is an operation that joins strings, 
+For example, the concatenation of strings "smart" and "phone" is "smartphone"
+
+Concatenation can be expanded to more than two strings, 
+for example concatenating "co","dil" and "ity" results in "codility"
+
+Given an array A consisting of strings, your function should
+calculate the length of the longest string S such that 
+
+S is a concatenation of some of the strings from A every letter in S is different 
+
+Write a function:
+
+class Solution { public int solution(String [] A) ; }
+
+
+Given an Array A Consisiting of N Strings, 
+Calculates the length of the longest string S fulfilling the conditions above. 
+If no such string exists, your function should return 0.
+
+
+Given A ={ "co","dil","ity"};
+
+Your function should return 5. 
+The resulting string S could be "codil","dilco","coity" or "ityco"
+
+A = {"abc","yyy","def","csv"}
+your function should print 6
+"abcdef","defabc", "defcsv" or "csvdef"
+
+A={"potato","kayak","banana","racecar"}
+your function shuld print 0
+It is impossible to choose any of these strings as each of them contains repeating letters.
+
+A={eva,jqw,tyn,jan}
+your function should return 9 
+
+One of the possible strings of this length is "evajqwtyn"
+
+
+
+Program-2
+
+Write a function class Solution { public int solution(int [] A); }
+
+that, given an array A consisting of N integers returns the biggest value X which occurs in A exactly 
+X times. If there is no such value, the function should return 0
+
+Given A={3,8,2,3,3,2}
+the function should return 3;
+The value 2 occurs exactly two times
+and the value 3 occurs exactly three times
+so they both meet the task conditions. THe value 8 occurs
+just once, thus it does not meet the task conditions
+THe maxmimum of 2 and 3 is 3
+
+Given A = {7,1,2,8,2}
+
+the function should return 2
+
+The value 1 occurs exactly one time 
+the value 2 occurs exactly two times
+
+Given A ={3,1,4,1,5}
+the function should return 0.
+There is no value which meets the task conditions 
+
+Given A ={5,5,5,5,5}
+the function should return 5 
+
+Write an efficient algorithm for the following assumptions 
+
+N is an integer in the range [1,100000];
+each element of array A is an integer within the range [1,1,000,000,000]
+
+
+
+Program-3
+
+There are N Empty glasses with a capacity of 1,2....N Litres(there is exactly one glass of each
+unique capacity). 
+You want to pour exactly K litres of water into glasses. 
+Each glass may be either full or empty (a glass cannot be partially filled). 
+What is the minimum number of glasses that you need to conatin K litres of water?
+
+write a function 
+
+class Solution{
+public int solution(int N,int K)
+{
+
+}
+}
+
+
+that given two integers, N and K return the minimum number of glasses that are 
+needed to contain exactly K litres of water. 
+If it is not possible to pour exactly K litres of water into glasses then the 
+function should return -1
+
+Given N = 5, K=8, the function should return 2.
+There are five glasses of capacity 1,2,3,4 and 5. 
+You can use two glasses with capacity 3 and 5 to hold 8 litres of water.
+
+Given N=4 and K=10, the function should return 4.
+You must use all the glasses to contain 10 litres of water. 
+
+Given N=1 and K=2, the function should return -1.
+There is only one glass with capacity 1, so you cannot pour 2 litres of water.
+
+Write an efficient alogirthm for the following assumptions 
+
+N is an integer within the range [1...1,000,000];
+K is an integer within the range [1..1,000,000,000];
+
+
+
+Program-4
+
+Write a function solution that, given an integer N returns the maximum possible value 
+obtainable by deleting one '5' digit from the decimal representation of N.
+It is guranteed that N will contain at least one '5' digit
+
+
+
+Given N = 15958, the function should return 1958
+N=-5859, the function should return -589
+N=-5000, the function should return 0.
+deleting the '5', the only digits in the number are zeroes
+so its value is 0
+
+Assume that
+ N is an integer within the range 
+ [-999,995..999,995]
+ N contains at least one '5' digit in its decimal representation;
+ N consists of atleast two digits in its decimal representation;
+
+ In your solution, focus on correctness. 
+ The performance of your solution will not be the focus of the assessment.
+
+

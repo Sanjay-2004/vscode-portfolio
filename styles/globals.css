@@ -4,16 +4,26 @@
 
 @import "./themes.css";
 
+/* Global styles using CSS variables from themes.css */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: var(--text-color);
+  --background-start-rgb: var(--main-bg);
+  --background-end-rgb: var(--main-bg);
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    var(--background-start-rgb),
+    var(--background-end-rgb)
+  );
+  color: var(--foreground-rgb);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: var(--text-color);
+    --background-start-rgb: var(--main-bg);
+    --background-end-rgb: var(--main-bg);
   }
 }

@@ -1,8 +1,10 @@
-import Themeswitcher from "@/components/Themeswitcher"
+import React from 'react'
 
 const Home = () => {
   return (
-    <Themeswitcher />
+    <div>
+      This is Home
+    </div>
   )
 }
 

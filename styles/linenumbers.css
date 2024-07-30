@@ -1,0 +1,29 @@
+.code {
+  counter-reset: line;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.line {
+  display: block;
+  position: relative;
+  padding-left: 3em;
+}
+
+.line::before {
+  content: counter(line);
+  counter-increment: line;
+  position: absolute;
+  left: 0;
+  width: 2.5em;
+  text-align: right;
+  margin-right: 1em;
+  color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .code {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+  }
+}

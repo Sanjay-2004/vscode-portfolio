@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,8 +8,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        jetbrains: ["JetBrains Mono", "monospace"],
+      },
       backgroundColor: {
         "main-bg": "var(--main-bg)",
+        "titlebar-bg": "var(--titlebar-bg)",
         "sidebar-bg": "var(--sidebar-bg)",
         "sidebar-hover-bg": "var(--sidebar-hover-bg)",
         "explorer-bg": "var(--explorer-bg)",
@@ -18,6 +24,7 @@ module.exports = {
         "tab-active-bg": "var(--tab-active-bg)",
         "bottombar-bg": "var(--bottombar-bg)",
         "button-bg": "var(--button-bg)",
+        "button-hover-bg": "var(--button-hover-bg)",
         "bottombar-hover-bg": "var(--bottombar-hover-bg)",
         "scrollbar-track-bg": "var(--scrollbar-track-bg)",
         "article-bg": "var(--article-bg)",
@@ -26,6 +33,8 @@ module.exports = {
         "explorer-border": "var(--explorer-border)",
         "tab-border": "var(--tab-border)",
         "bottombar-border": "var(--bottombar-border)",
+        "tab-bg": "var(--tab-bg)",
+        "accent-color": "var(--accent-color)",
       },
       textColor: {
         "text-color": "var(--text-color)",

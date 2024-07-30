@@ -1,28 +1,33 @@
-import Link from "next/link"
+'use client'
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { MdClose } from "react-icons/md";
 
 const tabs = [
     { name: 'home.jsx', icon: '/images/react.png', href: '' },
-    { name: 'projects.js', icon: '/images/js.png', href: 'projects' },
     { name: 'about.html', icon: '/images/html.png', href: 'about' },
-    { name: 'contact.json', icon: '/images/json.png', href: 'contact' },
+    { name: 'contact.css', icon: '/images/css.png', href: 'contact' },
+    { name: 'projects.js', icon: '/images/js.png', href: 'projects' },
     { name: 'github.md', icon: '/images/readme.png', href: 'github' },
+];
 
-]
 const Navbar = () => {
-    return (
-        <nav className=" bg-slate-900 flex justify-evenly py-3 text-4xl">
-            {
-                tabs.map((tab, index) => {
-                    return (
-                        <Link key={index} href={`/${tab.href}`} className='flex justify-evenly gap-2 items-center text-white hover:text-gray-600 focus:text-black'>
-                            <img src={tab.icon} alt={tab.name} className='w-5 h-5' />
-                            <span className="text-sm">{tab.name}</span>
-                        </Link>
-                    )
-                })
-            }
-        </nav>
-    )
-}
+    const currentRoute = usePathname();
 
-export default Navbar
+    return (
+        <nav className="flex justify-normal gap-2 text-4xl bg-tabs-bg">
+            {tabs.map((tab, index) => {
+                const isActive = currentRoute === `/${tab.href}`;
+                return (
+                    <Link key={index} href={`/${tab.href}`} className={`flex justify-evenly gap-2 items-center p-[5px] group ${isActive ? 'border-b-0 border-t-2 bg-main-bg border-accent-color' : ''}`}>
+                        <img src={tab.icon} alt={tab.name} className="w-5 h-5" />
+                        <span className="text-sm">{tab.name}</span>
+                        <MdClose className={`text-sm opacity-0 ${isActive ? 'opacity-100' : 'group-hover:opacity-50 group-focus:opacity-100'}`} />
+                    </Link>
+                );
+            })}
+        </nav>
+    );
+};
+
+export default Navbar;

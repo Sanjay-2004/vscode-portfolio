@@ -3,63 +3,54 @@
     "name": "GitHub Dark",
     "icon": "/github-dark.png",
     "publisher": "GitHub",
-    "theme": "github-dark",
-    "description": "GitHub theme for VS Code"
-  },
-  {
-    "name": "Dracula",
-    "icon": "/dracula.png",
-    "publisher": "Dracula Theme",
-    "theme": "dracula",
-    "description": "Official Dracula Theme. A dark theme for many editors, shells, and more."
-  },
-  {
-    "name": "Ayu Mirage",
-    "icon": "/ayu-mirage.png",
-    "publisher": "teabyii",
-    "theme": "ayu-mirage",
-    "description": "A simple theme with bright colors."
-  },
-  {
-    "name": "Nord",
-    "icon": "/nord.png",
-    "publisher": "arcticicestudio",
-    "theme": "nord",
-    "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme."
-  },
-  {
-    "name": "Solarized Dark",
-    "icon": "/solarized-dark.png",
-    "publisher": "Solarized",
-    "theme": "solarized-dark",
-    "description": "A dark color scheme designed for readability and reduced eye strain."
-  },
-  {
-    "name": "Monokai",
-    "icon": "/monokai.png",
-    "publisher": "Wimer Hazenberg",
-    "theme": "monokai",
-    "description": "A classic theme known for its vibrant colors and contrast."
-  },
-  {
-    "name": "One Dark",
-    "icon": "/one-dark.png",
-    "publisher": "One Dark",
-    "theme": "one-dark",
-    "description": "A dark theme with vibrant colors, inspired by Atom's One Dark."
+    "theme": "github-dark"
   },
   {
     "name": "Synthwave 84",
     "icon": "/synthwave-84.png",
     "publisher": "Robb O",
-    "theme": "synthwave-84",
-    "description": "A neon-themed, retro-futuristic color scheme inspired by the 1980s."
+    "theme": "synthwave-84"
+  },
+  {
+    "name": "Ayu Mirage",
+    "icon": "/ayu-mirage.png",
+    "publisher": "teabyii",
+    "theme": "ayu-mirage"
+  },
+  {
+    "name": "Dracula",
+    "icon": "/dracula.png",
+    "publisher": "Dracula Theme",
+    "theme": "dracula"
+  },
+  {
+    "name": "Solarized Dark",
+    "icon": "/solarized-dark.png",
+    "publisher": "Solarized",
+    "theme": "solarized-dark"
   },
   {
     "name": "Quiet Light",
     "icon": "/synthwave-84.png",
     "publisher": "Robb O",
-    "theme": "quiet-light",
-    "description": "A neon-themed, retro-futuristic color scheme inspired by the 1980s."
+    "theme": "quiet-light"
+  },
+  {
+    "name": "Nord",
+    "icon": "/nord.png",
+    "publisher": "arcticicestudio",
+    "theme": "nord"
+  },
+  {
+    "name": "Monokai",
+    "icon": "/monokai.png",
+    "publisher": "Wimer Hazenberg",
+    "theme": "monokai"
+  },
+  {
+    "name": "One Dark",
+    "icon": "/one-dark.png",
+    "publisher": "One Dark",
+    "theme": "one-dark"
   }
 ]
