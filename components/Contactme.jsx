@@ -24,7 +24,7 @@ const Contactme = () => {
 
         emailjs.send('service_h1t2qve', 'template_3v3kwy2', templateParams, 'jpcyricZULMYFryZ6')
             .then((response) => {
-                console.log('Success:', response);
+                // console.log('Success:', response);
                 setDetails({
                     name: '',
                     email: '',

@@ -13,7 +13,7 @@ const Themeswitcher = () => {
     }, []);
 
     const handleThemeChange = (theme) => {
-        console.log(`Switching to theme: ${theme}`);
+        // console.log(`Switching to theme: ${theme}`);
         setSelectedTheme(theme);
         localStorage.setItem('theme', theme);
         document.documentElement.setAttribute('data-theme', theme);
@@ -29,7 +29,7 @@ const Themeswitcher = () => {
                         key={theme.theme}
                         className='p-4 flex flex-col items-center cursor-pointer gap-1'
                     >
-                        {console.log(theme)}
+                        {/* {console.log(theme)} */}
                         <Image
                             src={`/themes${theme.icon}`} // Adjust path as necessary
                             alt={theme.name}

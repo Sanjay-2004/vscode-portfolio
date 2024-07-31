@@ -25,10 +25,10 @@ const Github = () => {
             try {
                 const response = await axios.get('https://api.github.com/users/Sanjay-2004')
                 const { login, avatar_url, html_url, public_repos, followers } = response.data
-                console.log(login, avatar_url, html_url, public_repos)
+                // console.log(login, avatar_url, html_url, public_repos)
                 setData({ login, avatar_url, html_url, public_repos, followers })
                 const repodata = await axios.get('https://api.github.com/users/Sanjay-2004/repos')
-                console.log(repodata)
+                // console.log(repodata)
             } catch (error) {
                 console.error('Error fetching data:', error)
             }
