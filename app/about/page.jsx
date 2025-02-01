@@ -25,7 +25,7 @@ const About = () => {
                     <span className="text-accent-color">&lt;resume&gt;</span>
                 </p>
                 <p className="line">
-                    &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1vU0mqmyUlQVlliBizcrXCfceTjnk_yVY/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/drive/folders/1KB8xDvr276Ez6Uq5Pakf-FmmNQVP_8_M?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:underline">
                         View Resume
                     </a>
                 </p>
